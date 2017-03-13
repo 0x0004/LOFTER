@@ -15,8 +15,8 @@ LOFTER是一个用图片记录生活的网站。
 ##Dependency
 ###Backend
 * Flask  
-    * Flask-script
-    * Flask-Login
+    * Flask-cript
+    * Flask-login
     * Flask-admin
     * Flask-WTF
     * Flask-principal
@@ -39,7 +39,7 @@ Pull LOFTER image from DockerHub:
 ```
 (sudo) docker-compose up -d
 ```
-Then you can visit LOFTER in your brower at http://localhost
+Then you can visit LOFTER in your brower at `http://localhost`
 
 ####After first run
 Stop LOFTER
